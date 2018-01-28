@@ -8,11 +8,13 @@ exitProgram = False
 showWeightVals = False
 x = None
 
+#Test data creation function
 def makeTestData(totalPoints):
        for i in range(0, totalPoints):
               randomPoints.append(Point(random.randint(-1000, 1000), random.randint(-1000, 1000)))
               #print(randomPoints) - debug
               
+ #Menu Code     
 while exitProgram == False:
        print("What would you like to do:\n 1: Make New Perceptron\n2: Make New Test Data\n3: Train Current Perceptron\n4: Test a random point\n5: Options\n6: Exit Program")
        choice = int(input("Please Choose (1, 2...): "))

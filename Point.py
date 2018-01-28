@@ -1,3 +1,7 @@
+'''
+Each point has two co-ords (X0, X1) and a label (-1  or 1) depending on if its below the
+seporator or above. Default seporator function is X < Y
+'''
 class Point:
        x0 = 0
        x1 = 0
