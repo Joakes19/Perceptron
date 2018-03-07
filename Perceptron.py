@@ -16,7 +16,7 @@ class Perceptron:
               if error != 0:
                      for i in range(0, 2):
                             self.weights[i] += (float(error) * float(self.inputs[i]) * self.LR)
-              print("Result of Training: Guess = %i  |  Answer = %i  |  Error = %i" % (guess, answer, error))
+                     print("Result of Training: Guess = %i  |  Answer = %i  |  Error = %i" % (guess, answer, error))
               if showWeightVals:
                      print(self.weights)
 
